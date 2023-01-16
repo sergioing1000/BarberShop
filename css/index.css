@@ -1,0 +1,17 @@
+@import "minireset.min.css";
+@import "fonts.css";
+@import "header.css";
+@import "about.css";
+
+
+:root {
+  --brand-color-1: #303030;
+  --brand-color-2: #FFFFFF;
+  --brand-color-3: #FF6C00;
+  --brand-color-4: #9DA4BD99;
+  --brand-color-5: #9DA4BD;
+}
+
+* {
+  box-sizing: border-box;
+}
