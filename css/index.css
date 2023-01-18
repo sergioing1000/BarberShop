@@ -2,6 +2,8 @@
 @import "fonts.css";
 @import "header.css";
 @import "about.css";
+@import "prices.css";
+@import "features.css";
 
 
 :root {
@@ -10,6 +12,10 @@
   --brand-color-3: #FF6C00;
   --brand-color-4: #9DA4BD99;
   --brand-color-5: #9DA4BD;
+  --brand-color-6: #555555;
+  --brand-color-7: #9da4bd1f;
+  --brand-color-8: #F7F7F7;
+  
 }
 
 * {

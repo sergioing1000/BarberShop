@@ -1,0 +1,164 @@
+.prices{
+  height: 718px;
+  background-image: url(/images/prices.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 130px 55px;
+
+}
+
+.prices__header{
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 20px;
+
+}
+
+.prices__header--line{
+  width: 60px;
+  height: 1px;
+  background-color: var(--brand-color-4);
+}
+
+.prices__header--title{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--brand-color-4);
+
+  padding-bottom: 20px;
+}
+
+.prices__title{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+
+  color: var(--brand-color-2);
+
+  padding-bottom: 46px;
+}
+.prices__tables{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.prices__table{
+  width: 585px;
+
+  background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.4) 100%);
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.prices__table-1{
+  width: 505px;
+}
+.prices__table-row{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  
+  letter-spacing: 0.02em;
+
+  color: var(--brand-color-5);
+  text-align: left;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 0px;
+}
+
+.prices__table-line11,
+.prices__table-line12,
+.prices__table-line13,
+.prices__table-line14,
+.prices__table-line21,
+.prices__table-line22,
+.prices__table-line23,
+.prices__table-line24{
+  border-top: 1px dashed var(--brand-color-5);
+  height: 1px;
+  align-self: flex-end;
+}
+
+.prices__table-line11 {
+  width: 248px;
+}
+.prices__table-line12 {
+  width: 273px;
+}
+.prices__table-line13 {
+  width: 239px;
+}
+.prices__table-line14 {
+  width: 190px;
+}
+
+.prices__table-line21{
+  width: 245px;
+}
+.prices__table-line22 {
+  width: 293px;
+}
+.prices__table-line23 {
+  width: 179px;
+}
+.prices__table-line24 {
+  width: 242px;
+}
+
+.prices__button{
+  width: 160px;
+  height: 40px;
+  
+  align-self: center;
+  margin-top: 50px;
+
+  border: 1px solid var(--brand-color-3);
+  background-color: var(--brand-color-3);
+  border-radius: 25px;
+
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  color: var(--brand-color-2);
+  transition: background-color 0.3s, color 0.3s;
+}
+.prices__button:hover {
+  background-color: var(--brand-color-2);
+  color: var(--brand-color-1);
+}

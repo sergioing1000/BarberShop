@@ -7,7 +7,7 @@
   gap: 64px;
 }
 
-.about__right{
+.about__left{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -15,8 +15,110 @@
   gap: 30px;
 }
 
-.about__left{
+.about__right{
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  gap: 20px;
+
+}
+
+.about__right--header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+
+}
+
+.about__right--header1{
+  width: 60px;
+  height: 1px;
+  background-color: var(--brand-color-1);
+}
+
+.about__right--header2 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--brand-color-1);
+}
+
+.about__right--text{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 20px;
+  
+}
+
+.about__right--text-title{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+
+  color: var(--brand-color-1);
+}
+
+.about__right--text-text1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  letter-spacing: 0.02em;
+
+  color: var(--brand-color-6);
+}
+
+.about__right--text-text2{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+
+  letter-spacing: 0.02em;
+
+  color: var(--brand-color-6);
+}
+
+.about__right--button{
+  width: 160px;
+    height: 40px;
+    background: none;
+  
+    border: 1px solid var(--brand-color-3);
+    border-radius: 25px;
+  
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+  
+    color: var(--brand-color-1);
+    transition: background-color 0.3s, color  0.3s;
+}
+.about__right--button:hover {
+  background-color: var(--brand-color-3);
+  cursor: pointer;
+  color: var(--brand-color-2);
 }
